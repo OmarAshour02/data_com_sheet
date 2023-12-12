@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot  as plt
 
-x_val = np.arange(0,10, 0.01)
+x_val = np.arange(0,10, 1000)
 y1 = np.sin(x_val)
 y2 = np.sin(2 * x_val)
 y3 = np.sin(4 * x_val)
