@@ -22,7 +22,7 @@ plt.ylabel('Amplitude')
 
 # Plot discrete sequence using stem function
 plt.subplot(2, 1, 2)
-plt.stem(t_values_discrete, discrete_signal, basefmt='b', linefmt='b-', markerfmt='bo')
+plt.stem(t_values_discrete, discrete_signal)
 plt.title('Discrete Sequence - Frequency = 2Hz')
 plt.xlabel('Time (s)')
 plt.ylabel('Amplitude')
